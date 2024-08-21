@@ -373,11 +373,17 @@ $d-color-number: hsl(0, 0%, 100%);
     display: flex;
     flex-direction: row;
     padding-top: 0px;
-    justify-content: space-between;
     padding: 20px;
     align-items: center;
 }
 
+#icon-down-f {
+    display: flex;
+    flex-direction: row;
+    padding-left: 152px;
+    align-items: center;
+    gap: 3px;
+}
 
 #insta_lk {
     background-color: $l-color-fundo-div;
@@ -398,9 +404,16 @@ $d-color-number: hsl(0, 0%, 100%);
     display: flex;
     flex-direction: row;
     padding-top: 0px;
-    justify-content: space-between;
     padding: 20px;
     align-items: center;
+}
+
+#icon-up-ilk {
+    display: flex;
+    flex-direction: row;
+    padding-left: 90px;
+    align-items: center;
+    gap: 3px;
 }
 
 #insta_pw {
@@ -422,9 +435,16 @@ $d-color-number: hsl(0, 0%, 100%);
     display: flex;
     flex-direction: row;
     padding-top: 0px;
-    justify-content: space-between;
     padding: 20px;
     align-items: center;
+}
+
+#icon-up-ipw {
+    display: flex;
+    flex-direction: row;
+    padding-left: 110px;
+    align-items: center;
+    gap: 5px;
 }
 
 
@@ -447,9 +467,16 @@ $d-color-number: hsl(0, 0%, 100%);
     display: flex;
     flex-direction: row;
     padding-top: 0px;
-    justify-content: space-between;
     padding: 20px;
+    align-items: center;    
+}
+
+#icon-up-trt {
+    display: flex;
+    flex-direction: row;
+    padding-left: 130px;
     align-items: center;
+    gap: 5px;
 }
 
 #twitter_lk {
@@ -471,9 +498,16 @@ $d-color-number: hsl(0, 0%, 100%);
     display: flex;
     flex-direction: row;
     padding-top: 0px;
-    justify-content: space-between;
     padding: 20px;
     align-items: center;
+}
+
+#icon-up-tlk {
+    display: flex;
+    flex-direction: row;
+    padding-left: 118px;
+    align-items: center;
+    gap: 5px;
 }
 
 #yt_lk {
@@ -495,9 +529,16 @@ $d-color-number: hsl(0, 0%, 100%);
     display: flex;
     flex-direction: row;
     padding-top: 0px;
-    justify-content: space-between;
     padding: 20px;
     align-items: center;
+}
+
+#icon-down-ytlk {
+    display: flex;
+    flex-direction: row;
+    padding-left: 132px;
+    align-items: center;
+    gap: 5px;
 }
 
 #yt_vw {
@@ -519,9 +560,16 @@ $d-color-number: hsl(0, 0%, 100%);
     display: flex;
     flex-direction: row;
     padding-top: 0px;
-    justify-content: space-between;
     padding: 20px;
     align-items: center;
+}
+
+#icon-down-ytv {
+    display: flex;
+    flex-direction: row;
+    padding-left: 112px;
+    align-items: center;
+    gap: 5px;
 }
 
 
