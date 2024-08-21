@@ -290,9 +290,16 @@
   display: flex;
   flex-direction: row;
   padding-top: 0px;
-  justify-content: space-between;
   padding: 20px;
   align-items: center;
+}
+
+#icon-up-f {
+  display: flex;
+  flex-direction: row;
+  padding-left: 50px;
+  align-items: center;
+  gap: 10px;
 }
 
 #facebook_lk {
