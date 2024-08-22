@@ -8,7 +8,8 @@ $l-color-followers-red: hsl(356, 69%, 56%);
 $l-color-face-g: hsl(208, 92%, 53%);
 $l-color-twitter-g: hsl(203, 89%, 53%);
 $l-color-yt-g: hsl(348, 97%, 39%);
-$l-color-fundo: #ffff;
+$l-color-fundo: hsl(0, 0%, 100%);
+$l-color-hover: hsl(232, 33%, 91%);
 
 $d-color-bg-top: hsl(232, 19%, 15%);
 $d-color-bg: hsl(230, 17%, 14%);
@@ -73,6 +74,21 @@ $d-color-hover: hsl(228, 26%, 27%);
         & #youtube {
             background-color: $d-color-fundo-div;
         }
+        & #facebook:hover {
+            background-color: $d-color-hover;
+        }
+        
+        & #twitter:hover {
+            background-color: $d-color-hover;
+        }
+        
+        & #instagram:hover {
+            background-color: $d-color-hover;
+        }
+        
+        & #youtube:hover {
+            background-color: $d-color-hover;
+        }
     }
 
     & #Overview_divs {
@@ -95,6 +111,21 @@ $d-color-hover: hsl(228, 26%, 27%);
         & #insta_pw {
             background-color: $d-color-fundo-div;
         }
+        & #facebook_pg:hover {
+            background-color: $d-color-hover;
+        }
+        
+        & #facebook_lk:hover {
+            background-color: $d-color-hover;
+        }
+        
+        & #insta_lk:hover {
+            background-color: $d-color-hover;
+        }
+        
+        & #insta_pw:hover {
+            background-color: $d-color-hover;
+        }
     }
     & #Overview_divs2 {
         h4 {
@@ -115,6 +146,21 @@ $d-color-hover: hsl(228, 26%, 27%);
     
         & #yt_vw {
             background-color: $d-color-fundo-div;
+        }
+        & #twitter_rt:hover {
+            background-color: $d-color-hover;
+        }
+        
+        & #twitter_lk:hover {
+            background-color: $d-color-hover;
+        }
+        
+        & #yt_lk:hover {
+            background-color: $d-color-hover;
+        }
+        
+        & #yt_vw:hover {
+            background-color: $d-color-hover;
         }
     }
 
@@ -581,49 +627,62 @@ $d-color-hover: hsl(228, 26%, 27%);
 
 #facebook:hover {
     cursor: pointer;
+    background-color: $l-color-hover;
 }
 
 #twitter:hover {
     cursor: pointer;
+    background-color: $l-color-hover;
 }
 
 #instagram:hover {
     cursor: pointer;
+    background-color: $l-color-hover;
 }
 
 #youtube:hover {
     cursor: pointer;
+    background-color: $l-color-hover;
 }
 #facebook_pg:hover {
     cursor: pointer;
+    background-color: $l-color-hover;
 }
 
 #facebook_lk:hover {
     cursor: pointer;
+    background-color: $l-color-hover;
 }
 
 #insta_lk:hover {
     cursor: pointer;
+    background-color: $l-color-hover;
 }
 
 #insta_pw:hover {
     cursor: pointer;
+    background-color: $l-color-hover;
 }
 
 #twitter_rt:hover {
     cursor: pointer;
+    background-color: $l-color-hover;
+
 }
 
 #twitter_lk:hover {
     cursor: pointer;
+    background-color: $l-color-hover;
 }
 
 #yt_lk:hover {
     cursor: pointer;
+    background-color: $l-color-hover;
 }
 
 #yt_vw:hover {
     cursor: pointer;
+    background-color: $l-color-hover;
 }
 
 
