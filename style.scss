@@ -15,6 +15,7 @@ $d-color-bg: hsl(230, 17%, 14%);
 $d-color-fundo-div: hsl(228, 28%, 20%);
 $d-color-text: hsl(228, 34%, 66%);
 $d-color-number: hsl(0, 0%, 100%);
+$d-color-hover: hsl(228, 26%, 27%);
 
 
 * {
@@ -150,6 +151,7 @@ $d-color-number: hsl(0, 0%, 100%);
     width: 260px;
     border-radius: 8px;
 }
+
 
 #face_gradient {
     height: 5px;
@@ -574,6 +576,54 @@ $d-color-number: hsl(0, 0%, 100%);
     padding-left: 112px;
     align-items: center;
     gap: 5px;
+}
+
+
+#facebook:hover {
+    cursor: pointer;
+}
+
+#twitter:hover {
+    cursor: pointer;
+}
+
+#instagram:hover {
+    cursor: pointer;
+}
+
+#youtube:hover {
+    cursor: pointer;
+}
+#facebook_pg:hover {
+    cursor: pointer;
+}
+
+#facebook_lk:hover {
+    cursor: pointer;
+}
+
+#insta_lk:hover {
+    cursor: pointer;
+}
+
+#insta_pw:hover {
+    cursor: pointer;
+}
+
+#twitter_rt:hover {
+    cursor: pointer;
+}
+
+#twitter_lk:hover {
+    cursor: pointer;
+}
+
+#yt_lk:hover {
+    cursor: pointer;
+}
+
+#yt_vw:hover {
+    cursor: pointer;
 }
 
 
