@@ -15,7 +15,7 @@
 }
 
 #theme:checked ~ #fundo {
-  background-color: hsl(230, 17%, 14%);
+  background-image: url(img-bg/bg-dark.png);
 }
 #theme:checked ~ #fundo h3 {
   color: hsl(0, 0%, 100%);
@@ -91,6 +91,9 @@
 }
 
 #fundo {
+  background-image: url(img-bg/bg-light.png);
+  background-size: 1550px;
+  background-repeat: no-repeat no-repeat;
   margin: 0px;
   padding-top: 0px;
   padding-bottom: 0px;
